@@ -22,6 +22,9 @@ module.exports = function (grunt) {
   var autoprefixerSettings = require('./grunt/autoprefixer-settings.js');
   var autoprefixer = require('autoprefixer')(autoprefixerSettings);
 
+  var sh = require('shelljs');
+  sh.config.fatal = true;
+
   var generateCommonJSModule = require('./grunt/bs-commonjs-generator.js');
   var configBridge = grunt.file.readJSON('./grunt/configBridge.json', { encoding: 'utf8' });
 
@@ -355,6 +358,9 @@ module.exports = function (grunt) {
     exec: {
       npmUpdate: {
         command: 'npm update'
+      },
+      npmShrinkwrap: {
+        command: 'npm shrinkwrap --dev'
       }
     },
 
@@ -482,4 +488,16 @@ module.exports = function (grunt) {
 
   // Publish to GitHub
   grunt.registerTask('publish', ['buildcontrol:pages']);
+
+  // Task for updating the cached npm packages used by the Travis build (which are controlled by grunt/npm-shrinkwrap.json).
+  // This task should be run and the updated file should be committed whenever Bootstrap's dependencies change.
+  grunt.registerTask('update-shrinkwrap', function () {
+    grunt.task.run('exec:npmUpdate', 'exec:npmShrinkwrap');
+    var dest = 'grunt/npm-shrinkwrap.json';
+    if (grunt.file.exists('./npm-shrinkwrap.json')) {
+      sh.mv('-f', './npm-shrinkwrap.json', dest);
+      grunt.log.writeln('File ' + dest.cyan + ' updated.');
+    }
+  });
+
 };
