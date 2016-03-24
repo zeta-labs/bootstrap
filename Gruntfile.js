@@ -21,10 +21,6 @@ module.exports = function (grunt) {
   var mq4HoverShim = require('mq4-hover-shim');
   var autoprefixerSettings = require('./grunt/autoprefixer-settings.js');
   var autoprefixer = require('autoprefixer')(autoprefixerSettings);
-
-  var sh = require('shelljs');
-  sh.config.fatal = true;
-
   var generateCommonJSModule = require('./grunt/bs-commonjs-generator.js');
   var configBridge = grunt.file.readJSON('./grunt/configBridge.json', { encoding: 'utf8' });
 
@@ -355,15 +351,6 @@ module.exports = function (grunt) {
       }
     },
 
-    exec: {
-      npmUpdate: {
-        command: 'npm update'
-      },
-      npmShrinkwrap: {
-        command: 'npm shrinkwrap --dev'
-      }
-    },
-
     buildcontrol: {
       options: {
         dir: '_gh_pages',
@@ -492,12 +479,44 @@ module.exports = function (grunt) {
   // Task for updating the cached npm packages used by the Travis build (which are controlled by grunt/npm-shrinkwrap.json).
   // This task should be run and the updated file should be committed whenever Bootstrap's dependencies change.
   grunt.registerTask('update-shrinkwrap', function () {
-    grunt.task.run('exec:npmUpdate', 'exec:npmShrinkwrap');
+    var done = this.async();
     var dest = 'grunt/npm-shrinkwrap.json';
-    if (grunt.file.exists('./npm-shrinkwrap.json')) {
-      sh.mv('-f', './npm-shrinkwrap.json', dest);
-      grunt.log.writeln('File ' + dest.cyan + ' updated.');
-    }
+
+    grunt.util.spawn({
+      cmd: 'npm',
+      args: ['update']
+    }, function(error) {
+      if (error) {
+        grunt.fail.fatal(error);
+        done(false);
+      }
+
+      grunt.log.writeln('Ran `npm update`.');
+      done();
+    });
+
+    grunt.util.spawn({
+      cmd: 'npm',
+      args: ['shrinkwrap', '--dev']
+    }, function(error, res) {
+      if (error) {
+        grunt.fail.fatal(error);
+        done(false);
+      }
+
+      grunt.log.writeln('File ./npm-shrinkwrap.json created.');
+
+      fs.rename('npm-shrinkwrap.json', dest, function(err) {
+        if (err) {
+          grunt.fail.fatal(err);
+          done(false);
+        }
+        grunt.log.writeln('File ./npm-shrinkwrap.json renamed.');
+      });
+
+      done();
+    });
+
   });
 
 };
