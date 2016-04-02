@@ -304,6 +304,38 @@ module.exports = function (grunt) {
       }
     },
 
+    htmlmin: {
+      dist: {
+        options: {
+          collapseWhitespace: true,
+          collapseBooleanAttributes: true,
+          conservativeCollapse: true,
+          minifyCSS: {
+            compatibility: 'ie9',
+            keepSpecialComments: 0,
+            noAdvanced: true
+          },
+          minifyJS: true,
+          minifyURLs: false,
+          processConditionalComments: true,
+          removeAttributeQuotes: true,
+          removeComments: true,
+          removeOptionalAttributes: true,
+          removeOptionalTags: true,
+          removeRedundantAttributes: true,
+          removeScriptTypeAttributes: true,
+          removeStyleLinkTypeAttributes: true
+        },
+        expand: true,
+        cwd: '_gh_pages',
+        dest: '_gh_pages',
+        src: [
+          '**/*.html',
+          '!examples/**/*.html'
+        ]
+      }
+    },
+
     htmllint: {
       options: {
         ignore: [
@@ -476,7 +508,7 @@ module.exports = function (grunt) {
   grunt.registerTask('docs-js', ['uglify:docsJs']);
   grunt.registerTask('lint-docs-js', ['jscs:assets']);
   grunt.registerTask('docs', ['lint-docs-css', 'docs-css', 'docs-js', 'lint-docs-js', 'clean:docs', 'copy:docs']);
-  grunt.registerTask('docs-github', ['jekyll:github']);
+  grunt.registerTask('docs-github', ['jekyll:github', 'htmlmin']);
 
   grunt.registerTask('prep-release', ['dist', 'docs', 'docs-github', 'compress']);
 
