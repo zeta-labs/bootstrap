@@ -2238,7 +2238,7 @@ input[type="checkbox"].disabled {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.6;
-  color: #ccc;
+  color: #373a3c;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2249,47 +2249,47 @@ input[type="checkbox"].disabled {
           user-select: none;
   background-color: #fff;
   border: 1px solid transparent;
-  border-color: #373a3c;
+  border-color: #ccc;
   border-radius: .25rem;
 }
 
 .btn:hover {
-  color: #ccc;
+  color: #373a3c;
   background-color: #e6e6e6;
-  border-color: #1a1b1c;
+  border-color: #adadad;
 }
 
 .btn:focus, .btn.focus {
-  color: #ccc;
+  color: #373a3c;
   background-color: #e6e6e6;
-  border-color: #1a1b1c;
+  border-color: #adadad;
 }
 
 .btn:active, .btn.active,
 .open > .btn.dropdown-toggle {
-  color: #ccc;
+  color: #373a3c;
   background-color: #e6e6e6;
   background-image: none;
-  border-color: #1a1b1c;
+  border-color: #adadad;
 }
 
 .btn:active:hover, .btn:active:focus, .btn:active.focus, .btn.active:hover, .btn.active:focus, .btn.active.focus,
 .open > .btn.dropdown-toggle:hover,
 .open > .btn.dropdown-toggle:focus,
 .open > .btn.dropdown-toggle.focus {
-  color: #ccc;
+  color: #373a3c;
   background-color: #d4d4d4;
-  border-color: black;
+  border-color: #8c8c8c;
 }
 
 .btn.disabled:focus, .btn.disabled.focus, .btn:disabled:focus, .btn:disabled.focus {
   background-color: #fff;
-  border-color: #373a3c;
+  border-color: #ccc;
 }
 
 .btn.disabled:hover, .btn:disabled:hover {
   background-color: #fff;
-  border-color: #373a3c;
+  border-color: #ccc;
 }
 
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {

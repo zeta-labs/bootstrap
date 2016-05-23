@@ -243,9 +243,9 @@ $btn-padding-x:                  1rem !default;
 $btn-padding-y:                  .375rem !default;
 $btn-font-weight:                normal !default;
 
-$btn-color:                      #ccc !default;
+$btn-color:                      $gray-dark !default;
 $btn-bg:                         #fff !default;
-$btn-border:                     $gray-dark !default;
+$btn-border:                     #ccc !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
