@@ -2238,7 +2238,7 @@ input[type="checkbox"].disabled {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.6;
-  color: #373a3c;
+  color: #ccc;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2254,20 +2254,20 @@ input[type="checkbox"].disabled {
 }
 
 .btn:hover {
-  color: #373a3c;
+  color: #ccc;
   background-color: #e6e6e6;
   border-color: #1a1b1c;
 }
 
 .btn:focus, .btn.focus {
-  color: #373a3c;
+  color: #ccc;
   background-color: #e6e6e6;
   border-color: #1a1b1c;
 }
 
 .btn:active, .btn.active,
 .open > .btn.dropdown-toggle {
-  color: #373a3c;
+  color: #ccc;
   background-color: #e6e6e6;
   background-image: none;
   border-color: #1a1b1c;
@@ -2277,7 +2277,7 @@ input[type="checkbox"].disabled {
 .open > .btn.dropdown-toggle:hover,
 .open > .btn.dropdown-toggle:focus,
 .open > .btn.dropdown-toggle.focus {
-  color: #373a3c;
+  color: #ccc;
   background-color: #d4d4d4;
   border-color: black;
 }
