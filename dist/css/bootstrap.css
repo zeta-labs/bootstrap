@@ -320,15 +320,15 @@ html {
 }
 
 html {
-  font-size: 16px;
+  font-size: 15px;
 
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #373a3c;
   background-color: #fff;
 }
@@ -646,7 +646,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #818a91;
 }
 
@@ -686,7 +686,7 @@ mark,
   max-width: 100%;
   height: auto;
   padding: .25rem;
-  line-height: 1.5;
+  line-height: 1.6;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: .25rem;
@@ -747,7 +747,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 90%;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #373a3c;
 }
 
@@ -1685,7 +1685,7 @@ pre code {
 .table th,
 .table td {
   padding: .75rem;
-  line-height: 1.5;
+  line-height: 1.6;
   vertical-align: top;
   border-top: 1px solid #eceeef;
 }
@@ -1881,7 +1881,7 @@ pre code {
   width: 100%;
   padding: .375rem .75rem;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #55595c;
   background-color: #fff;
   background-image: none;
@@ -1943,7 +1943,7 @@ pre code {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 2.25rem;
+    line-height: 2.35rem;
   }
   input[type="date"].input-sm,
   .input-group-sm input[type="date"].form-control,
@@ -1974,7 +1974,7 @@ pre code {
 }
 
 .form-control-static {
-  min-height: 2.25rem;
+  min-height: 2.35rem;
   padding-top: .375rem;
   padding-bottom: .375rem;
   margin-bottom: 0;
@@ -2083,9 +2083,9 @@ input[type="checkbox"].disabled {
 .form-control-danger {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
-  background-position: center right .5625rem;
-  -webkit-background-size: 1.4625rem 1.4625rem;
-          background-size: 1.4625rem 1.4625rem;
+  background-position: center right .5875rem;
+  -webkit-background-size: 1.5275rem 1.5275rem;
+          background-size: 1.5275rem 1.5275rem;
 }
 
 .has-success .text-help,
@@ -2237,7 +2237,7 @@ input[type="checkbox"].disabled {
   padding: .375rem 1rem;
   font-size: 1rem;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2325,48 +2325,48 @@ fieldset[disabled] a.btn {
 }
 
 .btn-secondary {
-  color: #373a3c;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-secondary:hover {
-  color: #373a3c;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #22303d;
+  border-color: #1e2a37;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-  color: #373a3c;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #22303d;
+  border-color: #1e2a37;
 }
 
 .btn-secondary:active, .btn-secondary.active,
 .open > .btn-secondary.dropdown-toggle {
-  color: #373a3c;
-  background-color: #e6e6e6;
+  color: #fff;
+  background-color: #22303d;
   background-image: none;
-  border-color: #adadad;
+  border-color: #1e2a37;
 }
 
 .btn-secondary:active:hover, .btn-secondary:active:focus, .btn-secondary:active.focus, .btn-secondary.active:hover, .btn-secondary.active:focus, .btn-secondary.active.focus,
 .open > .btn-secondary.dropdown-toggle:hover,
 .open > .btn-secondary.dropdown-toggle:focus,
 .open > .btn-secondary.dropdown-toggle.focus {
-  color: #373a3c;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  color: #fff;
+  background-color: #151e26;
+  border-color: #07090c;
 }
 
 .btn-secondary.disabled:focus, .btn-secondary.disabled.focus, .btn-secondary:disabled:focus, .btn-secondary:disabled.focus {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-secondary.disabled:hover, .btn-secondary:disabled:hover {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-info {
@@ -2578,31 +2578,31 @@ fieldset[disabled] a.btn {
 }
 
 .btn-secondary-outline {
-  color: #ccc;
+  color: #34495e;
   background-color: transparent;
   background-image: none;
-  border-color: #ccc;
+  border-color: #34495e;
 }
 
 .btn-secondary-outline:focus, .btn-secondary-outline.focus, .btn-secondary-outline:active, .btn-secondary-outline.active,
 .open > .btn-secondary-outline.dropdown-toggle {
   color: #fff;
-  background-color: #ccc;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-secondary-outline:hover {
   color: #fff;
-  background-color: #ccc;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-secondary-outline.disabled:focus, .btn-secondary-outline.disabled.focus, .btn-secondary-outline:disabled:focus, .btn-secondary-outline:disabled.focus {
-  border-color: white;
+  border-color: #587ca0;
 }
 
 .btn-secondary-outline.disabled:hover, .btn-secondary-outline:disabled:hover {
-  border-color: white;
+  border-color: #587ca0;
 }
 
 .btn-info-outline {
@@ -2870,7 +2870,7 @@ input[type="button"].btn-block {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #373a3c;
   text-align: inherit;
   white-space: nowrap;
@@ -2925,7 +2925,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 3px 20px;
   font-size: .875rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #818a91;
   white-space: nowrap;
 }
@@ -3895,7 +3895,7 @@ input[type="button"].btn-block {
 
 .card-secondary-outline {
   background-color: transparent;
-  border-color: #ccc;
+  border-color: #34495e;
 }
 
 .card-info-outline {
@@ -4114,7 +4114,7 @@ input[type="button"].btn-block {
   float: left;
   padding: .5rem .75rem;
   margin-left: -1px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #0275d8;
   text-decoration: none;
   background-color: #fff;
@@ -5033,7 +5033,7 @@ button.close {
 
 .modal-title {
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .modal-body {
@@ -5094,11 +5094,11 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: .875rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5195,11 +5195,11 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: .875rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5826,6 +5826,15 @@ a.text-danger:focus, a.text-danger:hover {
 
 a.bg-primary:focus, a.bg-primary:hover {
   background-color: #025aa5;
+}
+
+.bg-secondary {
+  color: #fff !important;
+  background-color: #34495e !important;
+}
+
+a.bg-secondary:focus, a.bg-secondary:hover {
+  background-color: #22303d;
 }
 
 .bg-success {

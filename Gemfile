@@ -1,7 +1,7 @@
 # Ruby Gems for building and testing Bootstrap
 # Run `grunt update-gemfile-lock` to update to the latest compatible versions
 
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 group :development, :test do
   gem 'jekyll', '~> 3.0.1'
