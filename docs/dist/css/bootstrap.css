@@ -321,15 +321,24 @@ html {
 }
 
 html {
+<<<<<<< HEAD
   font-size: 16px;
   -ms-overflow-style: scrollbar;
+=======
+  font-size: 15px;
+
+>>>>>>> origin/v4a2
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
+<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+=======
+  font-family: "Open Sans", Arial, sans-serif;
+>>>>>>> origin/v4a2
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #373a3c;
   background-color: #fff;
 }
@@ -635,6 +644,10 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
+<<<<<<< HEAD
+=======
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   color: #818a91;
 }
 
@@ -669,7 +682,15 @@ dl.row > dd + dt {
 }
 
 .img-thumbnail {
+<<<<<<< HEAD
   padding: 0.25rem;
+=======
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: .25rem;
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
@@ -728,6 +749,10 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 90%;
+<<<<<<< HEAD
+=======
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   color: #373a3c;
 }
 
@@ -1748,7 +1773,12 @@ pre code {
 
 .table th,
 .table td {
+<<<<<<< HEAD
   padding: 0.75rem;
+=======
+  padding: .75rem;
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   vertical-align: top;
   border-top: 1px solid #eceeef;
 }
@@ -1944,7 +1974,11 @@ pre code {
   width: 100%;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
+<<<<<<< HEAD
   line-height: 1.25;
+=======
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   color: #55595c;
   background-color: #fff;
   background-image: none;
@@ -2015,6 +2049,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 .col-form-label-lg {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -2030,6 +2065,47 @@ select.form-control:focus::-ms-value {
 .col-form-legend {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+=======
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 2.35rem;
+  }
+  input[type="date"].input-sm,
+  .input-group-sm input[type="date"].form-control,
+  input[type="time"].input-sm,
+  .input-group-sm
+  input[type="time"].form-control,
+  input[type="datetime-local"].input-sm,
+  .input-group-sm
+  input[type="datetime-local"].form-control,
+  input[type="month"].input-sm,
+  .input-group-sm
+  input[type="month"].form-control {
+    line-height: 1.8625rem;
+  }
+  input[type="date"].input-lg,
+  .input-group-lg input[type="date"].form-control,
+  input[type="time"].input-lg,
+  .input-group-lg
+  input[type="time"].form-control,
+  input[type="datetime-local"].input-lg,
+  .input-group-lg
+  input[type="datetime-local"].form-control,
+  input[type="month"].input-lg,
+  .input-group-lg
+  input[type="month"].form-control {
+    line-height: 3.166667rem;
+  }
+}
+
+.form-control-static {
+  min-height: 2.35rem;
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+>>>>>>> origin/v4a2
   margin-bottom: 0;
   font-size: 1rem;
 }
@@ -2146,9 +2222,15 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-control-danger {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-position: center right 0.625rem;
   -webkit-background-size: 1.25rem 1.25rem;
           background-size: 1.25rem 1.25rem;
+=======
+  background-position: center right .5875rem;
+  -webkit-background-size: 1.5275rem 1.5275rem;
+          background-size: 1.5275rem 1.5275rem;
+>>>>>>> origin/v4a2
 }
 
 .has-success .form-control-feedback,
@@ -2284,7 +2366,11 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .btn {
   display: inline-block;
   font-weight: normal;
+<<<<<<< HEAD
   line-height: 1.25;
+=======
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2373,48 +2459,55 @@ fieldset[disabled] a.btn {
 }
 
 .btn-secondary {
-  color: #373a3c;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-secondary:hover {
-  color: #373a3c;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #22303d;
+  border-color: #1e2a37;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-  color: #373a3c;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #22303d;
+  border-color: #1e2a37;
 }
 
 .btn-secondary:active, .btn-secondary.active,
 .open > .btn-secondary.dropdown-toggle {
+<<<<<<< HEAD
   color: #373a3c;
   background-color: #e6e6e6;
   border-color: #adadad;
   background-image: none;
+=======
+  color: #fff;
+  background-color: #22303d;
+  background-image: none;
+  border-color: #1e2a37;
+>>>>>>> origin/v4a2
 }
 
 .btn-secondary:active:hover, .btn-secondary:active:focus, .btn-secondary:active.focus, .btn-secondary.active:hover, .btn-secondary.active:focus, .btn-secondary.active.focus,
 .open > .btn-secondary.dropdown-toggle:hover,
 .open > .btn-secondary.dropdown-toggle:focus,
 .open > .btn-secondary.dropdown-toggle.focus {
-  color: #373a3c;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  color: #fff;
+  background-color: #151e26;
+  border-color: #07090c;
 }
 
 .btn-secondary.disabled:focus, .btn-secondary.disabled.focus, .btn-secondary:disabled:focus, .btn-secondary:disabled.focus {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-secondary.disabled:hover, .btn-secondary:disabled:hover {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-info {
@@ -2640,6 +2733,7 @@ fieldset[disabled] a.btn {
   border-color: #43a7fd;
 }
 
+<<<<<<< HEAD
 .btn-outline-secondary {
   color: #ccc;
   background-image: none;
@@ -2651,21 +2745,29 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #ccc;
   border-color: #ccc;
+=======
+.btn-secondary-outline {
+  color: #34495e;
+  background-color: transparent;
+  background-image: none;
+  border-color: #34495e;
+>>>>>>> origin/v4a2
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
   color: #fff;
-  background-color: #ccc;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-outline-secondary:active, .btn-outline-secondary.active,
 .open > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #ccc;
-  border-color: #ccc;
+  background-color: #34495e;
+  border-color: #34495e;
 }
 
+<<<<<<< HEAD
 .btn-outline-secondary:active:hover, .btn-outline-secondary:active:focus, .btn-outline-secondary:active.focus, .btn-outline-secondary.active:hover, .btn-outline-secondary.active:focus, .btn-outline-secondary.active.focus,
 .open > .btn-outline-secondary.dropdown-toggle:hover,
 .open > .btn-outline-secondary.dropdown-toggle:focus,
@@ -2681,6 +2783,14 @@ fieldset[disabled] a.btn {
 
 .btn-outline-secondary.disabled:hover, .btn-outline-secondary:disabled:hover {
   border-color: white;
+=======
+.btn-secondary-outline.disabled:focus, .btn-secondary-outline.disabled.focus, .btn-secondary-outline:disabled:focus, .btn-secondary-outline:disabled.focus {
+  border-color: #587ca0;
+}
+
+.btn-secondary-outline.disabled:hover, .btn-secondary-outline:disabled:hover {
+  border-color: #587ca0;
+>>>>>>> origin/v4a2
 }
 
 .btn-outline-info {
@@ -3013,6 +3123,10 @@ tbody.collapse.in {
   padding: 3px 1.5rem;
   clear: both;
   font-weight: normal;
+<<<<<<< HEAD
+=======
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   color: #373a3c;
   text-align: inherit;
   white-space: nowrap;
@@ -3065,9 +3179,15 @@ tbody.collapse.in {
 
 .dropdown-header {
   display: block;
+<<<<<<< HEAD
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   font-size: 0.875rem;
+=======
+  padding: 3px 20px;
+  font-size: .875rem;
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   color: #818a91;
   white-space: nowrap;
 }
@@ -4319,7 +4439,7 @@ tbody.collapse.in {
 
 .card-outline-secondary {
   background-color: transparent;
-  border-color: #ccc;
+  border-color: #34495e;
 }
 
 .card-outline-info {
@@ -4553,6 +4673,10 @@ tbody.collapse.in {
   float: left;
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
+<<<<<<< HEAD
+=======
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   color: #0275d8;
   text-decoration: none;
   background-color: #fff;
@@ -5419,7 +5543,7 @@ button.close {
 
 .modal-title {
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .modal-body {
@@ -5467,12 +5591,20 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
+<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
   line-height: 1.5;
+=======
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5571,12 +5703,20 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
+<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
   line-height: 1.5;
+=======
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6;
+>>>>>>> origin/v4a2
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -6093,6 +6233,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   float: none !important;
 }
 
+<<<<<<< HEAD
 @media (min-width: 576px) {
   .float-sm-left {
     float: left !important;
@@ -6103,6 +6244,20 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   .float-sm-none {
     float: none !important;
   }
+=======
+.bg-secondary {
+  color: #fff !important;
+  background-color: #34495e !important;
+}
+
+a.bg-secondary:focus, a.bg-secondary:hover {
+  background-color: #22303d;
+}
+
+.bg-success {
+  color: #fff !important;
+  background-color: #5cb85c !important;
+>>>>>>> origin/v4a2
 }
 
 @media (min-width: 768px) {
