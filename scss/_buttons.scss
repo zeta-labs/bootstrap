@@ -59,6 +59,10 @@ fieldset[disabled] a.btn {
 // Alternate buttons
 //
 
+.btn {
+  @include button-variant($btn-color, $btn-bg, $btn-border);
+}
+
 .btn-primary {
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
 }
