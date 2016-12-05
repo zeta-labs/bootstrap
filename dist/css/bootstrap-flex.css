@@ -775,9 +775,9 @@ pre code {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .container {
-    width: 1280px;
+    width: 1302px;
     max-width: 100%;
   }
 }
@@ -1964,7 +1964,7 @@ pre code {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .col-hg {
     -webkit-flex-basis: 0;
         -ms-flex-preferred-size: 0;
@@ -4466,7 +4466,7 @@ tbody.collapse.in {
   clear: both;
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1333px) {
   .navbar-toggleable-xl .navbar-brand {
     display: block;
     float: none;
@@ -4483,7 +4483,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .navbar-toggleable-xl {
     display: block;
   }
@@ -7076,7 +7076,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .flex-hg-first {
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
@@ -7097,7 +7097,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .flex-items-hg-top {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
@@ -7118,7 +7118,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .flex-hg-top {
     -webkit-align-self: flex-start;
         -ms-flex-item-align: start;
@@ -7137,7 +7137,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .flex-items-hg-left {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -7229,7 +7229,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .float-hg-left {
     float: left !important;
   }
@@ -7596,7 +7596,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .text-hg-left {
     text-align: left !important;
   }
@@ -7756,13 +7756,13 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1333px) {
   .hidden-xl-down {
     display: none !important;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1334px) {
   .hidden-hg-up {
     display: none !important;
   }
