@@ -785,9 +785,9 @@ pre code {
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .container {
-    width: 1298px;
+    width: 1244px;
     max-width: 100%;
   }
 }
@@ -1747,7 +1747,7 @@ pre code {
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .col-hg-1 {
     float: left;
     width: 8.333333%;
@@ -4206,7 +4206,7 @@ tbody.collapse.in {
   clear: both;
 }
 
-@media (max-width: 1327px) {
+@media (max-width: 1303px) {
   .navbar-toggleable-xl .navbar-brand {
     display: block;
     float: none;
@@ -4223,7 +4223,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .navbar-toggleable-xl {
     display: block;
   }
@@ -6395,7 +6395,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .float-hg-left {
     float: left !important;
   }
@@ -6762,7 +6762,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .text-hg-left {
     text-align: left !important;
   }
@@ -6922,13 +6922,13 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-@media (max-width: 1327px) {
+@media (max-width: 1303px) {
   .hidden-xl-down {
     display: none !important;
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .hidden-hg-up {
     display: none !important;
   }

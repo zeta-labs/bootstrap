@@ -39,9 +39,9 @@
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .container {
-    width: 1298px;
+    width: 1244px;
     max-width: 100%;
   }
 }
@@ -1001,7 +1001,7 @@
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1304px) {
   .col-hg-1 {
     float: left;
     width: 8.333333%;
