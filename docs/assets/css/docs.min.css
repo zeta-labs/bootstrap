@@ -1019,7 +1019,7 @@
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1333px) {
+@media (min-width: 1200px) and (max-width: 1327px) {
   .hidden-xl-only {
     display: none !important;
   }
