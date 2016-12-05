@@ -111,7 +111,7 @@
   margin-bottom: -2rem !important;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .bd-masthead {
     padding-top: 8rem;
     padding-bottom: 2rem;
@@ -172,7 +172,7 @@
   text-align: center;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .bd-featurette {
     text-align: left;
   }
@@ -200,7 +200,7 @@
   margin: 2.5rem auto;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .half-rule {
     margin-right: 0;
     margin-left: 0;
@@ -296,7 +296,7 @@
   text-decoration: none;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   #carbonads {
     max-width: 330px;
     margin: 50px auto 0;
@@ -372,7 +372,7 @@
   margin-bottom: .25rem;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .bd-title {
     font-size: 3rem;
   }
@@ -416,7 +416,7 @@
   font-weight: 300;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .bd-pageheader {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -598,7 +598,7 @@
   margin-bottom: 0;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .bd-footer {
     text-align: left;
   }
@@ -688,7 +688,7 @@
   clear: both;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .bd-example {
     padding: 1.5rem;
     margin-right: 0;
@@ -807,7 +807,7 @@
   margin: 1rem -1rem -1rem;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .bd-example .navbar-fixed-top {
     margin: -1.5rem -1.5rem 1rem;
   }
@@ -913,7 +913,7 @@
   background-color: #f7f7f9;
 }
 
-@media (min-width: 608px) {
+@media (min-width: 576px) {
   .highlight {
     padding: 1.5rem;
     margin-right: 0;
@@ -995,13 +995,13 @@
   border: 1px solid #d6e9c6;
 }
 
-@media (max-width: 607px) {
+@media (max-width: 575px) {
   .hidden-xs-only {
     display: none !important;
   }
 }
 
-@media (min-width: 608px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .hidden-sm-only {
     display: none !important;
   }
@@ -1013,13 +1013,13 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1247px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .hidden-lg-only {
     display: none !important;
   }
 }
 
-@media (min-width: 1248px) {
+@media (min-width: 1200px) and (max-width: 1299px) {
   .hidden-xl-only {
     display: none !important;
   }
